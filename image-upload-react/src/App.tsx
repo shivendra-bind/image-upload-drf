@@ -38,14 +38,7 @@ function App() {
         </div>
         <button onClick={(e) => onSubmit(e)}>Upload</button>
       </div>
-      <div>{url && <img src={url} alt="" />}</div>
-      <div>
-        <img
-          className="image"
-          src="http://localhost:8000/media/images/002251ce-502b-4c0f-b848-2cc49088f5e5.jpg"
-          alt=""
-        />
-      </div>
+      <div>{url && <img className="image" src={url} alt="" />}</div>
     </div>
   );
 }
